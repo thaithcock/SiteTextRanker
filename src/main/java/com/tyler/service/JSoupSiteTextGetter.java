@@ -5,7 +5,9 @@ import org.jsoup.Jsoup;
 import java.io.IOException;
 
 /**
- * Class to get text from a URL
+ * Uses Jsoup
+ *
+ * has issues getting text correctly for things like footer links, etc.
  */
 public class JSoupSiteTextGetter implements SiteTextGetter {
 
@@ -14,7 +16,6 @@ public class JSoupSiteTextGetter implements SiteTextGetter {
      * @return text of site
      */
     public String getText(String url) throws IOException {
-        System.out.println("hitting url: " + url);
         return Jsoup.connect(url).get().text();
     }
 }
