@@ -1,6 +1,6 @@
 # SiteTextRanker
 
-Receives a URL and outputs the top 25 most common words in the page. Takes the to hit as the one and only parameter.
+Receives a URL and outputs the top 25 most common words in the page. Takes the url as the one and only parameter.
 
 ## Assumptions made:
 
