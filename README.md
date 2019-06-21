@@ -1,5 +1,6 @@
 # SiteTextRanker
 
+Receives a URL and outputs the top 25 most common words in the page
 
 ## Assumptions made:
 
