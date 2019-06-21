@@ -6,15 +6,6 @@ import com.tyler.service.SiteTextGetter;
 import java.io.IOException;
 import java.util.*;
 
-/**
- * Assumptions made:
- *
- * 1. URL passed to the class is fully formed and valid for JSoup to use.
- * 2. The SiteTextGetter implementation works correctly
- *    a. Jsoup does not correctly get all text in all instances. That is noted in its class.
- * 3. Counting words is not case sensitive
- * 4. Numbers (e.g., 123) are not words, but single letter "words" like 'v' or 'x' are
- */
 public class App {
 
     static Integer TOP_NUMBER = 25;
